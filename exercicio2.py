@@ -20,3 +20,8 @@ arq = read_csv('teste.csv', #arquivo CSV
 arq.to_csv('order.csv', #criar um novo arquivo ordenado ou sobrescrever
            index=False #nao inserir no arquivo CSV os indexes default do Pandas
            )
+'''
+Utlizei metodos da biblioteca Pandas pra diminuir o tamanho do meu codigo
+Obs: a execução do codigo gera um novo arquivo CSV, mas é possivel fazer o update do arquivo sobrescrevendo.
+para fazer update do documento, troque na linha 20 "order.csv" pelo nome do arquivo existente
+'''
